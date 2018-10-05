@@ -8,6 +8,7 @@ cd goomer-api
 npm install
 node app.js
 ```
+Após isso, a API pode ser acessada pela url http://localhost:8080
 
 # Rotas
 - /api/users POST - Registra um novo usuário. Parametros: name, email, password(6 a 24 digitos, no minimo uma letra maiuscula, uma miniscula, um caracter especial e um numero), cpf (11 caracteres), phone (10 ou 11 caracteres), address
